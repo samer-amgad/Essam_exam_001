@@ -1,0 +1,15 @@
+@echo off
+
+REM mkdir %~dp0
+
+REM If we wabt to add some tool in the path before running the app REM 
+REM -------------------------------------------------------------- REM
+REM set old_path=%path%
+REM set path=%gst_rutm_path%;%path%
+
+@CMAKE_INSTALL_PREFIX@/bin/@CMAKE_PROJ_EXE@.exe
+
+:END
+REM set path=%old_path%
+
+REM cd %~dp0

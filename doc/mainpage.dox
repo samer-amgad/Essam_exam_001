@@ -1,0 +1,27 @@
+/**
+@mainpage Interview case
+
+@section design Design explanation
+
+Describe what you did here.
+
+There is no need to repeat the description for what it should do that you have
+received again here.
+
+<!-- If you know plantUML and you have it installed (maybe adapt PLANTUML_JAR_PATH
+  in Doxyfile if it's not at `/usr/share/plantuml`) then you can use this:
+  @startuml
+  A -> B
+  @enduml
+
+  Otherwise you can include an image with this line:
+
+@section Block Diagram (Static Arch):
+  ![Some image](doc/Block-diagram-static-arch.PNG)
+@section Sequence Diagram (dynamic Arch):
+  ![Some image](doc/Seq-Diag.png)
+@section Graph showing curves for both ADCs and pedal angle Relation:
+  ![Some image](doc/adc-angle-relation.PNG)
+
+-->
+*/
